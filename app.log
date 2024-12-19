@@ -1,0 +1,858 @@
+2024-12-19T04:44:04.710+05:30  WARN 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h45m4s155ms68µs600ns).
+2024-12-19T04:44:05.590+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T04:44:05.592+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T04:44:05.594+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e4b697e: (connection has passed maxLifetime)
+2024-12-19T04:44:05.600+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f766345: (connection has passed maxLifetime)
+2024-12-19T04:44:05.613+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70ec53ee: (connection has passed maxLifetime)
+2024-12-19T04:44:05.620+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31d159d5: (connection has passed maxLifetime)
+2024-12-19T04:44:05.624+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@698b9e30: (connection has passed maxLifetime)
+2024-12-19T04:44:05.629+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@28b6940b: (connection has passed maxLifetime)
+2024-12-19T04:44:05.633+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a765bba: (connection has passed maxLifetime)
+2024-12-19T04:44:05.637+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5b4b5181: (connection has passed maxLifetime)
+2024-12-19T04:44:05.641+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fafe340: (connection has passed maxLifetime)
+2024-12-19T04:44:05.643+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e649631: (connection has passed maxLifetime)
+2024-12-19T04:44:05.786+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45ee691b
+2024-12-19T04:44:05.820+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=1, active=0, idle=1, waiting=0)
+2024-12-19T04:44:05.887+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d36320
+2024-12-19T04:44:05.934+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=2, active=0, idle=2, waiting=0)
+2024-12-19T04:44:06.024+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@359dc381
+2024-12-19T04:44:06.055+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=3, active=0, idle=3, waiting=0)
+2024-12-19T04:44:06.141+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64fc9c6f
+2024-12-19T04:44:06.180+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=4, active=0, idle=4, waiting=0)
+2024-12-19T04:44:06.271+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52e47043
+2024-12-19T04:44:06.307+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-12-19T04:44:06.386+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60b2042a
+2024-12-19T04:44:06.433+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=6, active=0, idle=6, waiting=0)
+2024-12-19T04:44:06.481+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69bab967
+2024-12-19T04:44:06.528+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=7, active=0, idle=7, waiting=0)
+2024-12-19T04:44:06.595+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16e61c19
+2024-12-19T04:44:06.638+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=8, active=0, idle=8, waiting=0)
+2024-12-19T04:44:06.740+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fd11165
+2024-12-19T04:44:06.780+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=9, active=0, idle=9, waiting=0)
+2024-12-19T04:44:06.843+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31811d6e
+2024-12-19T04:44:06.889+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T04:44:06.889+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:47:03.312+05:30  WARN 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h3m745ms621µs300ns).
+2024-12-19T10:47:03.316+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:47:03.318+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:47:03.324+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16e61c19: (connection has passed maxLifetime)
+2024-12-19T10:47:03.334+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@52e47043: (connection has passed maxLifetime)
+2024-12-19T10:47:03.334+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69bab967: (connection has passed maxLifetime)
+2024-12-19T10:47:03.334+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@359dc381: (connection has passed maxLifetime)
+2024-12-19T10:47:03.341+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4d36320: (connection has passed maxLifetime)
+2024-12-19T10:47:03.343+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5fd11165: (connection has passed maxLifetime)
+2024-12-19T10:47:03.345+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31811d6e: (connection has passed maxLifetime)
+2024-12-19T10:47:03.345+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64fc9c6f: (connection has passed maxLifetime)
+2024-12-19T10:47:03.345+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@45ee691b: (connection has passed maxLifetime)
+2024-12-19T10:47:03.350+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60b2042a: (connection has passed maxLifetime)
+2024-12-19T10:47:03.390+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10dd31e2
+2024-12-19T10:47:03.437+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=1, active=0, idle=1, waiting=0)
+2024-12-19T10:47:03.475+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51e03bd9
+2024-12-19T10:47:03.515+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=2, active=0, idle=2, waiting=0)
+2024-12-19T10:47:03.557+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60fbed09
+2024-12-19T10:47:03.593+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=3, active=0, idle=3, waiting=0)
+2024-12-19T10:47:03.634+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31cfc496
+2024-12-19T10:47:03.672+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=4, active=0, idle=4, waiting=0)
+2024-12-19T10:47:03.699+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1341c3e3
+2024-12-19T10:47:03.735+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-12-19T10:47:03.756+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@358119e0
+2024-12-19T10:47:03.798+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=6, active=0, idle=6, waiting=0)
+2024-12-19T10:47:03.824+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bea9f0f
+2024-12-19T10:47:03.863+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=7, active=0, idle=7, waiting=0)
+2024-12-19T10:47:03.887+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20945e
+2024-12-19T10:47:03.926+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=8, active=0, idle=8, waiting=0)
+2024-12-19T10:47:03.951+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13d6c96
+2024-12-19T10:47:03.989+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=9, active=0, idle=9, waiting=0)
+2024-12-19T10:47:04.035+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26ebc167
+2024-12-19T10:47:04.082+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:47:04.082+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:47:33.333+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:47:33.333+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:48:03.346+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:48:03.346+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:48:33.358+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:48:33.358+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:49:03.361+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:49:03.361+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:49:33.363+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:49:33.363+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:50:03.373+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:50:03.373+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:50:33.389+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:50:33.389+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:51:03.402+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:51:03.402+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:51:33.418+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:51:33.419+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:52:03.424+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:52:03.424+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:52:33.438+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:52:33.438+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:53:03.452+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:53:03.452+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:53:33.468+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:53:33.468+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:54:03.471+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:54:03.471+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:54:33.483+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:54:33.483+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:55:03.491+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:55:03.497+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:55:33.511+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:55:33.511+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:56:03.515+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:56:03.515+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:56:33.516+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:56:33.516+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:57:03.528+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:57:03.528+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:58:58.798+05:30  WARN 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m55s269ms40µs200ns).
+2024-12-19T10:58:58.801+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:58:58.801+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:59:28.816+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:59:28.816+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T10:59:58.832+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T10:59:58.832+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:00:28.835+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:00:28.843+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:00:58.852+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:00:58.852+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:01:28.860+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:01:28.860+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:01:58.863+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:01:58.863+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:05:09.722+05:30  WARN 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m10s858ms669µs400ns).
+2024-12-19T11:05:09.722+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:05:09.722+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:05:41.021+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:05:41.021+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:06:11.027+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:06:11.027+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:06:41.034+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:06:41.034+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:07:11.035+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:07:11.035+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:07:41.040+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:07:41.040+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:08:11.056+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:08:11.056+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:08:41.066+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:08:41.066+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:09:11.077+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:09:11.077+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:09:41.093+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:09:41.093+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:10:11.109+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:10:11.109+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:39:35.839+05:30  WARN 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m24s729ms578µs).
+2024-12-19T11:39:35.839+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:39:35.839+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:39:35.852+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@20945e: (connection has passed maxLifetime)
+2024-12-19T11:39:35.870+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10dd31e2: (connection has passed maxLifetime)
+2024-12-19T11:39:35.877+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13d6c96: (connection has passed maxLifetime)
+2024-12-19T11:39:35.877+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@358119e0: (connection has passed maxLifetime)
+2024-12-19T11:39:35.881+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60fbed09: (connection has passed maxLifetime)
+2024-12-19T11:39:35.883+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6bea9f0f: (connection has passed maxLifetime)
+2024-12-19T11:39:35.886+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@26ebc167: (connection has passed maxLifetime)
+2024-12-19T11:39:35.888+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1341c3e3: (connection has passed maxLifetime)
+2024-12-19T11:39:35.890+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51e03bd9: (connection has passed maxLifetime)
+2024-12-19T11:39:35.892+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31cfc496: (connection has passed maxLifetime)
+2024-12-19T11:39:35.943+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@518532fa
+2024-12-19T11:39:35.981+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=1, active=0, idle=1, waiting=0)
+2024-12-19T11:39:36.002+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10b838c1
+2024-12-19T11:39:36.045+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=2, active=0, idle=2, waiting=0)
+2024-12-19T11:39:36.069+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21e2ef5a
+2024-12-19T11:39:36.108+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=3, active=0, idle=3, waiting=0)
+2024-12-19T11:39:36.129+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7097c78e
+2024-12-19T11:39:36.171+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=4, active=0, idle=4, waiting=0)
+2024-12-19T11:39:36.187+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f8b4422
+2024-12-19T11:39:36.235+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-12-19T11:39:36.259+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74d95bb8
+2024-12-19T11:39:36.299+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=6, active=0, idle=6, waiting=0)
+2024-12-19T11:39:36.321+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37660d19
+2024-12-19T11:39:36.363+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=7, active=0, idle=7, waiting=0)
+2024-12-19T11:39:36.382+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@513ec390
+2024-12-19T11:39:36.427+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=8, active=0, idle=8, waiting=0)
+2024-12-19T11:39:36.452+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b2a221c
+2024-12-19T11:39:36.492+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=9, active=0, idle=9, waiting=0)
+2024-12-19T11:39:36.511+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@416c0d6d
+2024-12-19T11:39:36.555+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:39:36.555+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:40:05.850+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:40:05.850+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:40:35.855+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:40:35.855+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:41:05.865+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:41:05.865+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:41:35.881+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:41:35.881+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:42:05.883+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:42:05.883+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:42:35.886+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:42:35.886+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:43:05.891+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:43:05.891+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:43:35.901+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:43:35.902+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:44:05.909+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:44:05.920+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:44:35.921+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:44:35.924+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:45:05.930+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:45:05.930+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:45:35.934+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:45:35.934+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:46:05.936+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:46:05.936+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:46:35.946+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:46:35.959+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:47:05.965+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:47:05.965+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:47:35.980+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:47:35.980+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:48:05.989+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:48:05.989+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:48:35.999+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:48:35.999+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:49:06.021+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:49:06.021+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:49:36.037+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:49:36.044+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:50:06.054+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:50:06.054+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:50:36.090+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:50:36.092+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:51:06.097+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:51:06.097+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:51:36.102+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:51:36.102+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:52:06.114+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:52:06.114+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:52:36.129+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:52:36.129+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:53:06.134+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:53:06.134+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:53:36.142+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:53:36.143+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:54:06.153+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:54:06.153+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:54:36.170+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:54:36.170+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:55:06.171+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:55:06.171+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:55:36.180+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:55:36.180+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:56:06.188+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:56:06.188+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T11:56:36.200+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T11:56:36.200+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:11:38.198+05:30  WARN 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m1s995ms763µs500ns).
+2024-12-19T13:11:38.200+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:11:38.200+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:11:38.208+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7097c78e: (connection has passed maxLifetime)
+2024-12-19T13:11:38.226+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@518532fa: (connection has passed maxLifetime)
+2024-12-19T13:11:38.234+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b2a221c: (connection has passed maxLifetime)
+2024-12-19T13:11:38.234+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@21e2ef5a: (connection has passed maxLifetime)
+2024-12-19T13:11:38.241+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@37660d19: (connection has passed maxLifetime)
+2024-12-19T13:11:38.244+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@416c0d6d: (connection has passed maxLifetime)
+2024-12-19T13:11:38.244+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74d95bb8: (connection has passed maxLifetime)
+2024-12-19T13:11:38.244+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@513ec390: (connection has passed maxLifetime)
+2024-12-19T13:11:38.244+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10b838c1: (connection has passed maxLifetime)
+2024-12-19T13:11:38.255+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5f8b4422: (connection has passed maxLifetime)
+2024-12-19T13:11:38.306+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@689f72f2
+2024-12-19T13:11:38.338+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=1, active=0, idle=1, waiting=0)
+2024-12-19T13:11:38.354+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29a278c9
+2024-12-19T13:11:38.402+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=2, active=0, idle=2, waiting=0)
+2024-12-19T13:11:38.446+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18c19417
+2024-12-19T13:11:38.487+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=3, active=0, idle=3, waiting=0)
+2024-12-19T13:11:38.512+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@498d8786
+2024-12-19T13:11:38.551+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=4, active=0, idle=4, waiting=0)
+2024-12-19T13:11:38.568+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5016fc1
+2024-12-19T13:11:38.614+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-12-19T13:11:38.639+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4dc33aaa
+2024-12-19T13:11:38.677+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=6, active=0, idle=6, waiting=0)
+2024-12-19T13:11:38.712+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7370c6c0
+2024-12-19T13:11:38.755+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=7, active=0, idle=7, waiting=0)
+2024-12-19T13:11:38.798+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76b84299
+2024-12-19T13:11:38.831+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=8, active=0, idle=8, waiting=0)
+2024-12-19T13:11:38.861+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70772257
+2024-12-19T13:11:38.906+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=9, active=0, idle=9, waiting=0)
+2024-12-19T13:11:38.932+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37b63a33
+2024-12-19T13:11:38.966+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:11:38.966+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:12:08.205+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:12:08.205+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:12:38.207+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:12:38.208+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:13:08.212+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:13:08.230+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:13:38.239+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:13:38.254+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:14:08.261+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:14:08.261+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:14:38.269+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:14:38.269+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:15:08.275+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:15:08.275+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:15:38.287+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:15:38.288+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:16:08.294+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:16:08.294+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:16:38.304+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:16:38.311+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:17:08.318+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:17:08.318+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:17:38.332+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:17:38.332+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:18:08.342+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:18:08.342+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:18:38.346+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:18:38.346+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:19:08.351+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:19:08.351+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:19:38.357+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:19:38.357+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:20:08.369+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:20:08.369+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:20:38.382+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:20:38.382+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:21:08.383+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:21:08.383+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:34:07.696+05:30  WARN 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m59s309ms670µs200ns).
+2024-12-19T13:34:07.696+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:34:07.697+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:34:37.702+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:34:37.709+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:35:07.726+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:35:07.726+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:35:37.736+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:35:37.736+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:36:07.750+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:36:07.750+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:36:37.771+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:36:37.771+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T13:36:38.885+05:30  INFO 4984 --- [bookstoreappliction] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-19T13:36:39.176+05:30  INFO 4984 --- [bookstoreappliction] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-19T13:36:39.276+05:30  INFO 4984 --- [bookstoreappliction] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T13:36:39.343+05:30  INFO 4984 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19T13:36:39.343+05:30 DEBUG 4984 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T13:36:39.365+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@689f72f2: (connection evicted)
+2024-12-19T13:36:39.371+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@29a278c9: (connection evicted)
+2024-12-19T13:36:39.374+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@18c19417: (connection evicted)
+2024-12-19T13:36:39.374+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@498d8786: (connection evicted)
+2024-12-19T13:36:39.377+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5016fc1: (connection evicted)
+2024-12-19T13:36:39.378+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4dc33aaa: (connection evicted)
+2024-12-19T13:36:39.380+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7370c6c0: (connection evicted)
+2024-12-19T13:36:39.381+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76b84299: (connection evicted)
+2024-12-19T13:36:39.385+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70772257: (connection evicted)
+2024-12-19T13:36:39.385+05:30 DEBUG 4984 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@37b63a33: (connection evicted)
+2024-12-19T13:36:39.387+05:30 DEBUG 4984 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-19T13:36:39.387+05:30  INFO 4984 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-19T14:45:17.725+05:30  INFO 18048 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Starting BookstoreapplictionApplication using Java 17.0.12 with PID 18048 (C:\Users\Smit\IdeaProjects\bookstoreappliction\target\classes started by Smit in C:\Users\Smit\IdeaProjects\bookstoreappliction)
+2024-12-19T14:45:17.732+05:30 DEBUG 18048 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-19T14:45:17.732+05:30  INFO 18048 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : The following 1 profile is active: "sql"
+2024-12-19T14:45:19.555+05:30  INFO 18048 --- [bookstoreappliction] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-19T14:45:19.786+05:30  INFO 18048 --- [bookstoreappliction] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 197 ms. Found 4 JPA repository interfaces.
+2024-12-19T14:45:21.450+05:30  INFO 18048 --- [bookstoreappliction] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-19T14:45:21.499+05:30  INFO 18048 --- [bookstoreappliction] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T14:45:21.499+05:30  INFO 18048 --- [bookstoreappliction] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T14:45:21.702+05:30  INFO 18048 --- [bookstoreappliction] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19T14:45:21.702+05:30  INFO 18048 --- [bookstoreappliction] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3835 ms
+2024-12-19T14:45:21.870+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@60e53b93
+2024-12-19T14:45:22.107+05:30  INFO 18048 --- [bookstoreappliction] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T14:45:22.313+05:30  INFO 18048 --- [bookstoreappliction] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-19T14:45:22.428+05:30  INFO 18048 --- [bookstoreappliction] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T14:45:23.167+05:30  INFO 18048 --- [bookstoreappliction] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-19T14:45:23.261+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2024-12-19T14:45:23.261+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2024-12-19T14:45:23.277+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2024-12-19T14:45:23.277+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2024-12-19T14:45:23.279+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2024-12-19T14:45:23.279+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2024-12-19T14:45:23.279+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2024-12-19T14:45:23.279+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2024-12-19T14:45:23.282+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2024-12-19T14:45:23.283+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2024-12-19T14:45:23.284+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/bookstore?createDatabaseIfNotExist=true
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2024-12-19T14:45:23.287+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2024-12-19T14:45:23.293+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2024-12-19T14:45:23.293+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2024-12-19T14:45:23.293+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2024-12-19T14:45:23.293+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2024-12-19T14:45:23.293+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2024-12-19T14:45:23.293+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2024-12-19T14:45:23.293+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2024-12-19T14:45:23.293+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2024-12-19T14:45:23.293+05:30  INFO 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19T14:45:24.012+05:30  INFO 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ce2e079
+2024-12-19T14:45:24.012+05:30  INFO 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19T14:45:24.119+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-12-19T14:45:24.188+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e9335c9
+2024-12-19T14:45:24.231+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=1, idle=1, waiting=0)
+2024-12-19T14:45:24.275+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ebcca86
+2024-12-19T14:45:24.301+05:30  INFO 18048 --- [bookstoreappliction] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-19T14:45:24.311+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-19T14:45:24.353+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fe1201c
+2024-12-19T14:45:24.390+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-19T14:45:24.425+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2af2108b
+2024-12-19T14:45:24.470+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-19T14:45:24.513+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@135284a0
+2024-12-19T14:45:24.549+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-19T14:45:24.584+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b4b6562
+2024-12-19T14:45:24.628+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-19T14:45:24.662+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f2827ec
+2024-12-19T14:45:24.694+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-19T14:45:24.731+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f021e7d
+2024-12-19T14:45:24.774+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-19T14:45:24.803+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fd524b6
+2024-12-19T14:45:24.837+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:45:24.837+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:45:26.629+05:30  INFO 18048 --- [bookstoreappliction] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T14:45:26.891+05:30  INFO 18048 --- [bookstoreappliction] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T14:45:27.768+05:30  WARN 18048 --- [bookstoreappliction] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-19T14:45:28.592+05:30  WARN 18048 --- [bookstoreappliction] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-19T14:45:28.600+05:30  INFO 18048 --- [bookstoreappliction] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T14:45:28.604+05:30  INFO 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19T14:45:28.604+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:45:28.609+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6ce2e079: (connection evicted)
+2024-12-19T14:45:28.612+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e9335c9: (connection evicted)
+2024-12-19T14:45:28.612+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ebcca86: (connection evicted)
+2024-12-19T14:45:28.616+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2fe1201c: (connection evicted)
+2024-12-19T14:45:28.616+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2af2108b: (connection evicted)
+2024-12-19T14:45:28.620+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@135284a0: (connection evicted)
+2024-12-19T14:45:28.621+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5b4b6562: (connection evicted)
+2024-12-19T14:45:28.622+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f2827ec: (connection evicted)
+2024-12-19T14:45:28.623+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f021e7d: (connection evicted)
+2024-12-19T14:45:28.626+05:30 DEBUG 18048 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fd524b6: (connection evicted)
+2024-12-19T14:45:28.627+05:30 DEBUG 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-19T14:45:28.629+05:30  INFO 18048 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-19T14:45:28.656+05:30  INFO 18048 --- [bookstoreappliction] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-19T14:45:28.707+05:30 ERROR 18048 --- [bookstoreappliction] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-19T14:45:42.285+05:30  INFO 19092 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Starting BookstoreapplictionApplication using Java 17.0.12 with PID 19092 (C:\Users\Smit\IdeaProjects\bookstoreappliction\target\classes started by Smit in C:\Users\Smit\IdeaProjects\bookstoreappliction)
+2024-12-19T14:45:42.292+05:30 DEBUG 19092 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-19T14:45:42.294+05:30  INFO 19092 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : The following 1 profile is active: "sql"
+2024-12-19T14:45:44.023+05:30  INFO 19092 --- [bookstoreappliction] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-19T14:45:44.236+05:30  INFO 19092 --- [bookstoreappliction] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 177 ms. Found 4 JPA repository interfaces.
+2024-12-19T14:45:45.714+05:30  INFO 19092 --- [bookstoreappliction] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-19T14:45:45.746+05:30  INFO 19092 --- [bookstoreappliction] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T14:45:45.746+05:30  INFO 19092 --- [bookstoreappliction] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T14:45:45.942+05:30  INFO 19092 --- [bookstoreappliction] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19T14:45:45.944+05:30  INFO 19092 --- [bookstoreappliction] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3503 ms
+2024-12-19T14:45:46.123+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@60e53b93
+2024-12-19T14:45:46.389+05:30  INFO 19092 --- [bookstoreappliction] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T14:45:46.592+05:30  INFO 19092 --- [bookstoreappliction] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-19T14:45:46.710+05:30  INFO 19092 --- [bookstoreappliction] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T14:45:47.519+05:30  INFO 19092 --- [bookstoreappliction] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-19T14:45:47.629+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2024-12-19T14:45:47.641+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2024-12-19T14:45:47.641+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2024-12-19T14:45:47.641+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2024-12-19T14:45:47.644+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2024-12-19T14:45:47.645+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2024-12-19T14:45:47.645+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2024-12-19T14:45:47.646+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2024-12-19T14:45:47.646+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2024-12-19T14:45:47.646+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2024-12-19T14:45:47.646+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2024-12-19T14:45:47.649+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-19T14:45:47.649+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2024-12-19T14:45:47.649+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2024-12-19T14:45:47.651+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2024-12-19T14:45:47.651+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2024-12-19T14:45:47.651+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2024-12-19T14:45:47.651+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2024-12-19T14:45:47.651+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/bookstore?createDatabaseIfNotExist=true
+2024-12-19T14:45:47.653+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2024-12-19T14:45:47.653+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2024-12-19T14:45:47.653+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2024-12-19T14:45:47.653+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2024-12-19T14:45:47.653+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2024-12-19T14:45:47.653+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2024-12-19T14:45:47.653+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
+2024-12-19T14:45:47.653+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2024-12-19T14:45:47.657+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2024-12-19T14:45:47.657+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2024-12-19T14:45:47.658+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2024-12-19T14:45:47.658+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2024-12-19T14:45:47.658+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2024-12-19T14:45:47.658+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2024-12-19T14:45:47.658+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2024-12-19T14:45:47.658+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2024-12-19T14:45:47.658+05:30 DEBUG 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2024-12-19T14:45:47.658+05:30  INFO 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19T14:45:48.268+05:30  INFO 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63c99f7
+2024-12-19T14:45:48.275+05:30  INFO 19092 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19T14:45:48.377+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-12-19T14:45:48.431+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@edc5278
+2024-12-19T14:45:48.472+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-19T14:45:48.478+05:30  INFO 19092 --- [bookstoreappliction] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-19T14:45:48.511+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ef3ad37
+2024-12-19T14:45:48.551+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-19T14:45:48.588+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1801b42a
+2024-12-19T14:45:48.629+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-19T14:45:48.661+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6abd377d
+2024-12-19T14:45:48.693+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-19T14:45:48.724+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d866dba
+2024-12-19T14:45:48.772+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-19T14:45:48.810+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52303ff8
+2024-12-19T14:45:48.851+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-19T14:45:48.888+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40d0b6a5
+2024-12-19T14:45:48.931+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-19T14:45:48.964+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34122f1e
+2024-12-19T14:45:48.997+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-19T14:45:49.027+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6af6cd1
+2024-12-19T14:45:49.060+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:45:49.060+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:45:50.626+05:30  INFO 19092 --- [bookstoreappliction] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T14:45:50.822+05:30  INFO 19092 --- [bookstoreappliction] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T14:45:51.619+05:30  WARN 19092 --- [bookstoreappliction] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-19T14:45:52.443+05:30  INFO 19092 --- [bookstoreappliction] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-19T14:45:52.468+05:30  INFO 19092 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Started BookstoreapplictionApplication in 11.372 seconds (process running for 12.289)
+2024-12-19T14:46:18.390+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:46:18.390+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:46:48.404+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:46:48.404+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:47:18.414+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:47:18.414+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:47:48.429+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:47:48.429+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:47:53.637+05:30  INFO 19092 --- [bookstoreappliction] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-19T14:47:53.637+05:30  INFO 19092 --- [bookstoreappliction] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-19T14:47:53.637+05:30  INFO 19092 --- [bookstoreappliction] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-19T14:48:18.435+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:48:18.436+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:48:48.441+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:48:48.441+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:49:18.454+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:49:18.454+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:49:48.458+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:49:48.458+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:50:18.467+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:50:18.467+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:50:48.476+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:50:48.477+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:51:18.485+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:51:18.485+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:51:48.500+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:51:48.501+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:52:18.504+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:52:18.504+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:52:48.508+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:52:48.508+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:53:18.513+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:53:18.513+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:53:25.033+05:30  WARN 19092 --- [bookstoreappliction] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1364, SQLState: HY000
+2024-12-19T14:53:25.033+05:30 ERROR 19092 --- [bookstoreappliction] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Field 'order_price' doesn't have a default value
+2024-12-19T14:53:48.516+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:53:48.517+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:54:18.525+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:54:18.525+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:54:48.537+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:54:48.537+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:55:18.541+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:55:18.541+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:55:48.550+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:55:48.550+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:56:18.556+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:56:18.556+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:57:13.505+05:30  WARN 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s950ms62µs700ns).
+2024-12-19T14:57:13.512+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:57:13.514+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:57:43.528+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:57:43.529+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:58:13.539+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:58:13.539+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:58:14.487+05:30  INFO 19092 --- [bookstoreappliction] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-19T14:58:14.546+05:30  INFO 19092 --- [bookstoreappliction] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-19T14:58:14.552+05:30  INFO 19092 --- [bookstoreappliction] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T14:58:14.556+05:30  INFO 19092 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19T14:58:14.556+05:30 DEBUG 19092 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:58:14.557+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63c99f7: (connection evicted)
+2024-12-19T14:58:14.563+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@edc5278: (connection evicted)
+2024-12-19T14:58:14.565+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6ef3ad37: (connection evicted)
+2024-12-19T14:58:14.568+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1801b42a: (connection evicted)
+2024-12-19T14:58:14.571+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6abd377d: (connection evicted)
+2024-12-19T14:58:14.571+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d866dba: (connection evicted)
+2024-12-19T14:58:14.571+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@52303ff8: (connection evicted)
+2024-12-19T14:58:14.571+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@40d0b6a5: (connection evicted)
+2024-12-19T14:58:14.571+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34122f1e: (connection evicted)
+2024-12-19T14:58:14.571+05:30 DEBUG 19092 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6af6cd1: (connection evicted)
+2024-12-19T14:58:14.580+05:30 DEBUG 19092 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-19T14:58:14.582+05:30  INFO 19092 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-19T14:58:17.949+05:30  INFO 20848 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Starting BookstoreapplictionApplication using Java 17.0.12 with PID 20848 (C:\Users\Smit\IdeaProjects\bookstoreappliction\target\classes started by Smit in C:\Users\Smit\IdeaProjects\bookstoreappliction)
+2024-12-19T14:58:17.953+05:30 DEBUG 20848 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-19T14:58:17.955+05:30  INFO 20848 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : The following 1 profile is active: "sql"
+2024-12-19T14:58:19.802+05:30  INFO 20848 --- [bookstoreappliction] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-19T14:58:20.014+05:30  INFO 20848 --- [bookstoreappliction] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 4 JPA repository interfaces.
+2024-12-19T14:58:21.590+05:30  INFO 20848 --- [bookstoreappliction] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-19T14:58:21.626+05:30  INFO 20848 --- [bookstoreappliction] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T14:58:21.626+05:30  INFO 20848 --- [bookstoreappliction] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T14:58:21.810+05:30  INFO 20848 --- [bookstoreappliction] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19T14:58:21.812+05:30  INFO 20848 --- [bookstoreappliction] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3732 ms
+2024-12-19T14:58:21.973+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@60e53b93
+2024-12-19T14:58:22.215+05:30  INFO 20848 --- [bookstoreappliction] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T14:58:22.398+05:30  INFO 20848 --- [bookstoreappliction] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-19T14:58:22.496+05:30  INFO 20848 --- [bookstoreappliction] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T14:58:23.290+05:30  INFO 20848 --- [bookstoreappliction] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-19T14:58:23.398+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2024-12-19T14:58:23.408+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2024-12-19T14:58:23.410+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2024-12-19T14:58:23.410+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2024-12-19T14:58:23.410+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2024-12-19T14:58:23.410+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2024-12-19T14:58:23.410+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2024-12-19T14:58:23.410+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2024-12-19T14:58:23.412+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2024-12-19T14:58:23.412+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2024-12-19T14:58:23.412+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2024-12-19T14:58:23.412+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-19T14:58:23.414+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2024-12-19T14:58:23.414+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2024-12-19T14:58:23.414+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2024-12-19T14:58:23.415+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2024-12-19T14:58:23.415+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2024-12-19T14:58:23.415+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2024-12-19T14:58:23.415+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/bookstore?createDatabaseIfNotExist=true
+2024-12-19T14:58:23.417+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2024-12-19T14:58:23.417+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2024-12-19T14:58:23.417+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2024-12-19T14:58:23.417+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2024-12-19T14:58:23.417+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2024-12-19T14:58:23.417+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2024-12-19T14:58:23.417+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
+2024-12-19T14:58:23.419+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2024-12-19T14:58:23.419+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2024-12-19T14:58:23.419+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2024-12-19T14:58:23.419+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2024-12-19T14:58:23.421+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2024-12-19T14:58:23.421+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2024-12-19T14:58:23.421+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2024-12-19T14:58:23.421+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2024-12-19T14:58:23.421+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2024-12-19T14:58:23.421+05:30 DEBUG 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2024-12-19T14:58:23.421+05:30  INFO 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19T14:58:24.011+05:30  INFO 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f012923
+2024-12-19T14:58:24.016+05:30  INFO 20848 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19T14:58:24.129+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-12-19T14:58:24.182+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@346cf50e
+2024-12-19T14:58:24.220+05:30  INFO 20848 --- [bookstoreappliction] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-19T14:58:24.224+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-19T14:58:24.263+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54430a41
+2024-12-19T14:58:24.303+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-19T14:58:24.338+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39f8f33e
+2024-12-19T14:58:24.382+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-19T14:58:24.424+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@500d32b3
+2024-12-19T14:58:24.462+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-19T14:58:24.501+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b0d1c7e
+2024-12-19T14:58:24.541+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-19T14:58:24.578+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ff20c44
+2024-12-19T14:58:24.620+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-19T14:58:24.663+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a1b619d
+2024-12-19T14:58:24.700+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-19T14:58:24.737+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11c06228
+2024-12-19T14:58:24.778+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-19T14:58:24.809+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@136bd311
+2024-12-19T14:58:24.842+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:58:24.843+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:58:26.317+05:30  INFO 20848 --- [bookstoreappliction] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T14:58:26.544+05:30  INFO 20848 --- [bookstoreappliction] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T14:58:27.420+05:30  WARN 20848 --- [bookstoreappliction] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-19T14:58:28.268+05:30  INFO 20848 --- [bookstoreappliction] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-19T14:58:28.287+05:30  INFO 20848 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Started BookstoreapplictionApplication in 11.461 seconds (process running for 12.372)
+2024-12-19T14:58:38.709+05:30  INFO 20848 --- [bookstoreappliction] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-19T14:58:38.709+05:30  INFO 20848 --- [bookstoreappliction] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-19T14:58:38.713+05:30  INFO 20848 --- [bookstoreappliction] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-19T14:58:54.137+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:58:54.137+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:59:24.150+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:59:24.150+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T14:59:54.157+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T14:59:54.157+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T15:00:24.169+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:00:24.169+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T15:00:54.170+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:00:54.174+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T15:01:24.183+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:01:24.183+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T15:01:54.193+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:01:54.193+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T15:03:15.383+05:30  WARN 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s190ms608µs).
+2024-12-19T15:03:15.385+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:03:15.385+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T15:03:45.395+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:03:45.395+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T15:04:15.402+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:04:15.403+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-19T15:04:43.752+05:30  INFO 20848 --- [bookstoreappliction] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-19T15:04:43.810+05:30  INFO 20848 --- [bookstoreappliction] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-19T15:04:43.814+05:30  INFO 20848 --- [bookstoreappliction] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T15:04:43.814+05:30  INFO 20848 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19T15:04:43.814+05:30 DEBUG 20848 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:04:43.823+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f012923: (connection evicted)
+2024-12-19T15:04:43.823+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@346cf50e: (connection evicted)
+2024-12-19T15:04:43.829+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54430a41: (connection evicted)
+2024-12-19T15:04:43.829+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@39f8f33e: (connection evicted)
+2024-12-19T15:04:43.829+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@500d32b3: (connection evicted)
+2024-12-19T15:04:43.829+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b0d1c7e: (connection evicted)
+2024-12-19T15:04:43.829+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6ff20c44: (connection evicted)
+2024-12-19T15:04:43.837+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5a1b619d: (connection evicted)
+2024-12-19T15:04:43.838+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@11c06228: (connection evicted)
+2024-12-19T15:04:43.838+05:30 DEBUG 20848 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@136bd311: (connection evicted)
+2024-12-19T15:04:43.838+05:30 DEBUG 20848 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-19T15:04:43.838+05:30  INFO 20848 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-19T15:04:50.732+05:30  INFO 21932 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Starting BookstoreapplictionApplication using Java 17.0.12 with PID 21932 (C:\Users\Smit\IdeaProjects\bookstoreappliction\target\classes started by Smit in C:\Users\Smit\IdeaProjects\bookstoreappliction)
+2024-12-19T15:04:50.742+05:30 DEBUG 21932 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-19T15:04:50.743+05:30  INFO 21932 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : The following 1 profile is active: "sql"
+2024-12-19T15:04:52.575+05:30  INFO 21932 --- [bookstoreappliction] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-19T15:04:52.783+05:30  INFO 21932 --- [bookstoreappliction] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 4 JPA repository interfaces.
+2024-12-19T15:04:54.495+05:30  INFO 21932 --- [bookstoreappliction] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-19T15:04:54.532+05:30  INFO 21932 --- [bookstoreappliction] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T15:04:54.532+05:30  INFO 21932 --- [bookstoreappliction] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T15:04:54.770+05:30  INFO 21932 --- [bookstoreappliction] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19T15:04:54.770+05:30  INFO 21932 --- [bookstoreappliction] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3892 ms
+2024-12-19T15:04:54.942+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@60e53b93
+2024-12-19T15:04:55.190+05:30  INFO 21932 --- [bookstoreappliction] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T15:04:55.350+05:30  INFO 21932 --- [bookstoreappliction] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-19T15:04:55.470+05:30  INFO 21932 --- [bookstoreappliction] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T15:04:56.277+05:30  INFO 21932 --- [bookstoreappliction] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-19T15:04:56.383+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2024-12-19T15:04:56.396+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2024-12-19T15:04:56.398+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2024-12-19T15:04:56.398+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2024-12-19T15:04:56.398+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2024-12-19T15:04:56.398+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2024-12-19T15:04:56.401+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2024-12-19T15:04:56.401+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2024-12-19T15:04:56.401+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2024-12-19T15:04:56.401+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2024-12-19T15:04:56.401+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2024-12-19T15:04:56.404+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-19T15:04:56.404+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2024-12-19T15:04:56.404+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2024-12-19T15:04:56.404+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2024-12-19T15:04:56.406+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2024-12-19T15:04:56.406+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2024-12-19T15:04:56.408+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2024-12-19T15:04:56.408+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/bookstore?createDatabaseIfNotExist=true
+2024-12-19T15:04:56.408+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2024-12-19T15:04:56.410+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2024-12-19T15:04:56.410+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2024-12-19T15:04:56.410+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2024-12-19T15:04:56.412+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2024-12-19T15:04:56.412+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2024-12-19T15:04:56.412+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
+2024-12-19T15:04:56.412+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2024-12-19T15:04:56.412+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2024-12-19T15:04:56.414+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2024-12-19T15:04:56.414+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2024-12-19T15:04:56.414+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2024-12-19T15:04:56.414+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2024-12-19T15:04:56.414+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2024-12-19T15:04:56.414+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2024-12-19T15:04:56.414+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2024-12-19T15:04:56.416+05:30 DEBUG 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2024-12-19T15:04:56.416+05:30  INFO 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19T15:04:57.143+05:30  INFO 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bdb04c8
+2024-12-19T15:04:57.143+05:30  INFO 21932 --- [bookstoreappliction] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19T15:04:57.249+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-12-19T15:04:57.300+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a89aab8
+2024-12-19T15:04:57.340+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=1, idle=1, waiting=0)
+2024-12-19T15:04:57.359+05:30  INFO 21932 --- [bookstoreappliction] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-19T15:04:57.376+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aa655f7
+2024-12-19T15:04:57.417+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-19T15:04:57.453+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74f2881f
+2024-12-19T15:04:57.491+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-19T15:04:57.532+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ee80bf8
+2024-12-19T15:04:57.565+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-19T15:04:57.603+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e5b7375
+2024-12-19T15:04:57.641+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-19T15:04:57.684+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@594b2143
+2024-12-19T15:04:57.722+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-19T15:04:57.759+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@af89c2d
+2024-12-19T15:04:57.804+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-19T15:04:57.860+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37f74296
+2024-12-19T15:04:57.896+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-19T15:04:57.931+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cf44310
+2024-12-19T15:04:57.968+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:04:57.968+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:04:59.716+05:30  INFO 21932 --- [bookstoreappliction] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T15:04:59.902+05:30  INFO 21932 --- [bookstoreappliction] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T15:05:00.813+05:30  WARN 21932 --- [bookstoreappliction] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-19T15:05:01.745+05:30  INFO 21932 --- [bookstoreappliction] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-19T15:05:01.765+05:30  INFO 21932 --- [bookstoreappliction] [main] c.b.BookstoreapplictionApplication       : Started BookstoreapplictionApplication in 12.237 seconds (process running for 13.149)
+2024-12-19T15:05:02.491+05:30  INFO 21932 --- [bookstoreappliction] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-19T15:05:02.555+05:30  INFO 21932 --- [bookstoreappliction] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-19T15:05:02.561+05:30  INFO 21932 --- [bookstoreappliction] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T15:05:02.567+05:30  INFO 21932 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19T15:05:02.568+05:30 DEBUG 21932 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-19T15:05:02.571+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4bdb04c8: (connection evicted)
+2024-12-19T15:05:02.574+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a89aab8: (connection evicted)
+2024-12-19T15:05:02.577+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2aa655f7: (connection evicted)
+2024-12-19T15:05:02.579+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74f2881f: (connection evicted)
+2024-12-19T15:05:02.580+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ee80bf8: (connection evicted)
+2024-12-19T15:05:02.580+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e5b7375: (connection evicted)
+2024-12-19T15:05:02.583+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@594b2143: (connection evicted)
+2024-12-19T15:05:02.585+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@af89c2d: (connection evicted)
+2024-12-19T15:05:02.585+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@37f74296: (connection evicted)
+2024-12-19T15:05:02.587+05:30 DEBUG 21932 --- [bookstoreappliction] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3cf44310: (connection evicted)
+2024-12-19T15:05:02.588+05:30 DEBUG 21932 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-19T15:05:02.588+05:30  INFO 21932 --- [bookstoreappliction] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
